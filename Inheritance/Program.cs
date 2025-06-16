@@ -6,20 +6,20 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            var myBird = new Bird();
+            var myBird = new Bird
             {
-                myBird.Legs = 2;
-                myBird.Eyes = 2;
-                myBird.Heterotrophic = true;
-                myBird.Multicellular = true;
+                Legs = 2,
+                Eyes = 2,
+                Heterotrophic = true,
+                Multicellular = true
             }
             ;
-            var myReptile = new Reptile();
+            var myReptile = new Reptile()
             {
-                myReptile.Legs = 4;
-                myReptile.Eyes = 2;
-                myReptile.Heterotrophic = true;
-                myReptile.Multicellular = true;
+                Legs = 4,
+                Eyes = 2,
+                Heterotrophic = true,
+                Multicellular = true,
             }
             ;
             Console.ForegroundColor = ConsoleColor.Yellow;
